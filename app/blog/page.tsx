@@ -6,7 +6,7 @@ export default function Blog() {
   const featuredPost = {
     title: 'Pawn Appétit v0.3.2 Released: Enhanced Analysis and Performance Improvements',
     excerpt: 'Our latest release brings significant improvements to game analysis, engine management, and overall performance. Learn about the new features and improvements.',
-    author: 'ChessKitchen Team',
+    author: 'Pawn-Appetit Team',
     date: '2025-01-15',
     readTime: '5 min read',
     category: 'Release',
@@ -48,7 +48,7 @@ export default function Blog() {
     {
       title: 'Chess Database Management Best Practices',
       excerpt: 'Tips and tricks for organizing and managing large chess databases effectively using Pawn Appétit.',
-      author: 'ChessKitchen Team',
+      author: 'Pawn-Appetit Team',
       date: '2024-12-28',
       readTime: '7 min read',
       category: 'Tutorial',

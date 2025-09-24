@@ -10,7 +10,7 @@ export default function Footer() {
         { name: 'Features', href: '/features' },
         { name: 'Screenshots', href: '/screenshots' },
         { name: 'Download', href: '/install' },
-        { name: 'Releases', href: 'https://github.com/ChessKitchen/pawn-appetit/releases' },
+        { name: 'Releases', href: 'https://github.com/Pawn-Appetit/pawn-appetit/releases' },
       ],
     },
     {
@@ -27,8 +27,8 @@ export default function Footer() {
       links: [
         { name: 'Contributing', href: '/contribute' },
         { name: 'Discord', href: 'https://discord.gg/8hk49G8ZbX' },
-        { name: 'GitHub', href: 'https://github.com/ChessKitchen/pawn-appetit' },
-        { name: 'Issues', href: 'https://github.com/ChessKitchen/pawn-appetit/issues' },
+        { name: 'GitHub', href: 'https://github.com/Pawn-Appetit/pawn-appetit' },
+        { name: 'Issues', href: 'https://github.com/Pawn-Appetit/pawn-appetit/issues' },
       ],
     },
     {
@@ -89,7 +89,7 @@ export default function Footer() {
             
             <div className="flex items-center gap-4">
               <a
-                href="https://github.com/ChessKitchen/pawn-appetit"
+                href="https://github.com/Pawn-Appetit/pawn-appetit"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 bg-surface-primary dark:bg-gray-800 hover:bg-brand-50 dark:hover:bg-brand-900/30 border border-gray-200 dark:border-gray-700 hover:border-brand-300 dark:hover:border-brand-600 rounded-2xl flex items-center justify-center transition-all duration-300 group shadow-soft hover:shadow-brand"
@@ -181,7 +181,7 @@ export default function Footer() {
           <div className="flex flex-col-reverse items-center justify-between gap-6 sm:flex-row">
             <div className="flex flex-col sm:flex-row items-center gap-4 text-caption text-text-tertiary">
               <div className="flex items-center gap-2">
-                <span>&copy; {currentYear} ChessKitchen.</span>
+                <span>&copy; {currentYear} Pawn-Appetit.</span>
                 <span>Licensed under GPL-3.0.</span>
               </div>
               <div className="hidden sm:block w-px h-4 bg-gray-300 dark:bg-gray-600"></div>

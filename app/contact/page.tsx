@@ -17,7 +17,7 @@ export default function Contact() {
       title: 'GitHub Issues',
       description: 'Report bugs, request features, or contribute to the project on GitHub.',
       action: 'Visit GitHub',
-      url: 'https://github.com/ChessKitchen/pawn-appetit'
+      url: 'https://github.com/Pawn-Appetit/pawn-appetit'
     },
     {
       icon: <Mail className="h-8 w-8" />,

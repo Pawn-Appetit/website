@@ -6,7 +6,7 @@ This is the official website for **Pawn Appétit** - The Ultimate Chess Toolkit.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ChessKitchen/website.git
+   git clone https://github.com/Pawn-Appetit/website.git
    cd pawn-appetit-website
    ```
 

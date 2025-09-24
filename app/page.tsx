@@ -142,7 +142,7 @@ export default function Home() {
                 <Sparkles className="h-4 w-4 opacity-60 group-hover:opacity-100 transition-opacity" />
               </a>
               <a 
-                href="https://github.com/ChessKitchen/pawn-appetit" 
+                href="https://github.com/Pawn-Appetit/pawn-appetit" 
                 className="btn btn-glass group text-lg px-8 py-4"
               >
                 <Github className="h-6 w-6" />

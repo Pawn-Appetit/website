@@ -63,7 +63,7 @@ export default function Contribute() {
       step: 1,
       title: 'Fork the Repository',
       description: 'Create your own copy of the Pawn Appétit repository on GitHub.',
-      link: 'https://github.com/ChessKitchen/pawn-appetit'
+      link: 'https://github.com/Pawn-Appetit/pawn-appetit'
     },
     {
       step: 2,
@@ -75,13 +75,13 @@ export default function Contribute() {
       step: 3,
       title: 'Pick an Issue',
       description: 'Browse open issues and pick one that matches your skill level and interests.',
-      link: 'https://github.com/ChessKitchen/pawn-appetit/issues'
+      link: 'https://github.com/Pawn-Appetit/pawn-appetit/issues'
     },
     {
       step: 4,
       title: 'Create a Pull Request',
       description: 'Submit your changes for review by creating a pull request.',
-      link: 'https://github.com/ChessKitchen/pawn-appetit/pulls'
+      link: 'https://github.com/Pawn-Appetit/pawn-appetit/pulls'
     }
   ]
 
@@ -89,19 +89,19 @@ export default function Contribute() {
     {
       title: 'Contributing Guidelines',
       description: 'Read our detailed contributing guidelines and code of conduct.',
-      url: 'https://github.com/ChessKitchen/pawn-appetit/blob/main/CONTRIBUTING.md',
+      url: 'https://github.com/Pawn-Appetit/pawn-appetit/blob/main/CONTRIBUTING.md',
       icon: <GitPullRequest className="h-6 w-6" />
     },
     {
       title: 'Translation Guide',
       description: 'Learn how to contribute translations in your language.',
-      url: 'https://github.com/ChessKitchen/pawn-appetit/blob/main/CONTRIBUTING_TRANSLATIONS.md',
+      url: 'https://github.com/Pawn-Appetit/pawn-appetit/blob/main/CONTRIBUTING_TRANSLATIONS.md',
       icon: <Globe className="h-6 w-6" />
     },
     {
       title: 'Code of Conduct',
       description: 'Our community guidelines for respectful and inclusive collaboration.',
-      url: 'https://github.com/ChessKitchen/pawn-appetit/blob/main/CODE_OF_CONDUCT.md',
+      url: 'https://github.com/Pawn-Appetit/pawn-appetit/blob/main/CODE_OF_CONDUCT.md',
       icon: <Heart className="h-6 w-6" />
     },
     {
@@ -132,7 +132,7 @@ export default function Contribute() {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="https://github.com/ChessKitchen/pawn-appetit"
+                href="https://github.com/Pawn-Appetit/pawn-appetit"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary flex items-center space-x-2"
@@ -322,7 +322,7 @@ export default function Contribute() {
               no matter how small, makes a difference.
             </p>
             <a
-              href="https://github.com/ChessKitchen/pawn-appetit/graphs/contributors"
+              href="https://github.com/Pawn-Appetit/pawn-appetit/graphs/contributors"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
@@ -345,7 +345,7 @@ export default function Contribute() {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="https://github.com/ChessKitchen/pawn-appetit/issues/new"
+                href="https://github.com/Pawn-Appetit/pawn-appetit/issues/new"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white text-primary-600 hover:bg-gray-50 font-medium py-3 px-8 rounded-lg transition-colors duration-200"

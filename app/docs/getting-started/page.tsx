@@ -203,7 +203,7 @@ export default function GettingStarted() {
 
           <div className="text-center mt-12">
             <a
-              href="https://github.com/ChessKitchen/pawn-appetit/releases/latest"
+              href="https://github.com/Pawn-Appetit/pawn-appetit/releases/latest"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary inline-flex items-center gap-2"

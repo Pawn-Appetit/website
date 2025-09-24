@@ -72,7 +72,7 @@ export default function Docs() {
     {
       title: 'GitHub Issues',
       description: 'Report bugs and request features.',
-      url: 'https://github.com/ChessKitchen/pawn-appetit/issues',
+      url: 'https://github.com/Pawn-Appetit/pawn-appetit/issues',
       icon: '🐛'
     },
     {
@@ -246,7 +246,7 @@ export default function Docs() {
                 Join Discord
               </a>
               <a
-                href="https://github.com/ChessKitchen/pawn-appetit/issues"
+                href="https://github.com/Pawn-Appetit/pawn-appetit/issues"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-primary-100 font-medium"

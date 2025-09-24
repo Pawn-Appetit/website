@@ -118,7 +118,7 @@ export default function Header() {
 
                     {/* Enhanced GitHub Link - Hidden on very small screens */}
                     <a
-                        href="https://github.com/ChessKitchen/pawn-appetit"
+                        href="https://github.com/Pawn-Appetit/pawn-appetit"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hidden xs:flex w-9 h-9 sm:w-11 sm:h-11 rounded-xl sm:rounded-2xl bg-surface-secondary hover:bg-surface-tertiary border border-gray-200 dark:border-gray-700 items-center justify-center transition-all duration-300 group shadow-soft hover:shadow-medium"
@@ -174,7 +174,7 @@ export default function Header() {
                                 <span>Discord</span>
                             </a>
                             <a
-                                href="https://github.com/ChessKitchen/pawn-appetit"
+                                href="https://github.com/Pawn-Appetit/pawn-appetit"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center space-x-2 px-4 py-2 text-sm text-text-secondary hover:text-text-primary transition-colors"

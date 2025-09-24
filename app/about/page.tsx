@@ -236,7 +236,7 @@ export default function About() {
                             And many more amazing contributors...
                         </p>
                         <a
-                            href="https://github.com/ChessKitchen/pawn-appetit/graphs/contributors"
+                            href="https://github.com/Pawn-Appetit/pawn-appetit/graphs/contributors"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn-primary"

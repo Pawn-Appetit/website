@@ -16,7 +16,7 @@ export default function Community() {
       name: 'GitHub Repository',
       description: 'Contribute code, report bugs, and follow development progress.',
       icon: <Code className="h-6 w-6" />,
-      link: 'https://github.com/ChessKitchen/pawn-appetit',
+      link: 'https://github.com/Pawn-Appetit/pawn-appetit',
       members: '50+ contributors',
       activity: 'Daily commits'
     },
@@ -100,7 +100,7 @@ export default function Community() {
       commands: [
         'git clone https://github.com/yourusername/pawn-appetit.git',
         'cd pawn-appetit',
-        'git remote add upstream https://github.com/ChessKitchen/pawn-appetit.git'
+        'git remote add upstream https://github.com/Pawn-Appetit/pawn-appetit.git'
       ]
     },
     {
@@ -455,7 +455,7 @@ export default function Community() {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="https://github.com/ChessKitchen/pawn-appetit"
+                href="https://github.com/Pawn-Appetit/pawn-appetit"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white text-primary-600 hover:bg-gray-50 font-medium py-3 px-8 rounded-lg transition-colors duration-200"

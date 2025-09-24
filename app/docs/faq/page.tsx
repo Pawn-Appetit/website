@@ -450,7 +450,7 @@ export default function FAQ() {
                 Join Discord Community
               </a>
               <a
-                href="https://github.com/ChessKitchen/pawn-appetit/issues"
+                href="https://github.com/Pawn-Appetit/pawn-appetit/issues"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-primary-100 font-medium"

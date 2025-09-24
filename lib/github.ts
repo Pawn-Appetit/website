@@ -52,7 +52,7 @@ export interface GitHubRelease {
 }
 
 class GitHubService {
-    private readonly REPO_OWNER = 'ChessKitchen'
+    private readonly REPO_OWNER = 'Pawn-Appetit'
     private readonly REPO_NAME = 'pawn-appetit'
     private readonly CACHE_DURATION = 5 * 60 * 1000 // 5 minutes
     private cache: { [key: string]: { data: unknown; timestamp: number } } = {}

@@ -90,7 +90,7 @@ export default function TechnicalDocumentation() {
     {
       category: 'Quick Start',
       items: [
-        'Clone: git clone https://github.com/ChessKitchen/pawn-appetit.git',
+        'Clone: git clone https://github.com/Pawn-Appetit/pawn-appetit.git',
         'Install dependencies: pnpm install',
         'Start development: pnpm tauri dev',
         'Build for production: pnpm tauri build'
@@ -618,7 +618,7 @@ export default function TechnicalDocumentation() {
                 Contributing Guide
               </a>
               <a
-                href="https://github.com/ChessKitchen/pawn-appetit"
+                href="https://github.com/Pawn-Appetit/pawn-appetit"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-primary-100 font-medium"

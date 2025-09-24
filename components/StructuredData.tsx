@@ -9,7 +9,7 @@ export function StructuredData() {
     "applicationSubCategory": "Chess Analysis Software",
     "description": "Best free chess analysis software for Windows, macOS, and Linux. Import games from Lichess and Chess.com, analyze with UCI engines, train opening repertoires, and improve your chess skills.",
     "url": "https://pawnappetit.com",
-    "downloadUrl": "https://github.com/ChessKitchen/pawn-appetit/releases/latest",
+    "downloadUrl": "https://github.com/Pawn-Appetit/pawn-appetit/releases/latest",
     "operatingSystem": ["Windows", "macOS", "Linux"],
     "softwareVersion": "1.0.0",
     "license": "https://www.gnu.org/licenses/gpl-3.0.html",
@@ -17,8 +17,8 @@ export function StructuredData() {
     "dateModified": "2025-01-01",
     "author": {
       "@type": "Organization",
-      "name": "ChessKitchen",
-      "url": "https://github.com/ChessKitchen"
+      "name": "Pawn-Appetit",
+      "url": "https://github.com/Pawn-Appetit"
     },
     "offers": {
       "@type": "Offer",
@@ -55,11 +55,11 @@ export function StructuredData() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "ChessKitchen",
+    "name": "Pawn-Appetit",
     "url": "https://pawnappetit.com",
     "logo": "https://pawnappetit.com/img/logo.png",
     "sameAs": [
-      "https://github.com/ChessKitchen/pawn-appetit",
+      "https://github.com/Pawn-Appetit/pawn-appetit",
       "https://discord.gg/8hk49G8ZbX"
     ]
   }
@@ -72,7 +72,7 @@ export function StructuredData() {
     "description": "Official website for Pawn Appétit chess analysis software",
     "publisher": {
       "@type": "Organization",
-      "name": "ChessKitchen"
+      "name": "Pawn-Appetit"
     },
     "potentialAction": {
       "@type": "SearchAction",
