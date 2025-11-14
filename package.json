@@ -1,0 +1,46 @@
+{
+  "name": "pawn-appetit-website",
+  "version": "1.0.0",
+  "description": "Official website for Pawn Appétit - The Ultimate Chess Toolkit",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && touch out/.nojekyll && cp CNAME out/",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "npm run build && gh-pages -d out"
+  },
+  "dependencies": {
+    "@next/font": "^14.2.15",
+    "@next/third-parties": "^16.0.3",
+    "@tabler/icons-react": "^3.35.0",
+    "framer-motion": "^12.23.24",
+    "lucide-react": "^0.553.0",
+    "next": "^16.0.3",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.4",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.22",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "^16.0.3",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.17",
+    "typescript": "^5.9.3"
+  },
+  "keywords": [
+    "chess",
+    "gui",
+    "analysis",
+    "repertoire",
+    "training",
+    "open-source",
+    "cross-platform"
+  ],
+  "author": "Pawn-Appetit",
+  "license": "GPL-3.0"
+}
