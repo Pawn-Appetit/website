@@ -1,0 +1,78 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+    * {
+        border-color: #e5e7eb;
+    }
+
+    .dark * {
+        border-color: #374151;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background-color: #ffffff;
+        color: #1f2937;
+        transition-property: color, background-color;
+        transition-duration: 200ms;
+    }
+
+    .dark body {
+        background-color: #0f172a;
+        color: #f9fafb;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: 700;
+    }
+
+    h1 {
+        font-size: 2.25rem;
+    }
+
+    @media (min-width: 768px) {
+        h1 {
+            font-size: 3rem;
+        }
+    }
+
+    h2 {
+        font-size: 1.875rem;
+    }
+
+    @media (min-width: 768px) {
+        h2 {
+            font-size: 2.25rem;
+        }
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    @media (min-width: 768px) {
+        h3 {
+            font-size: 1.875rem;
+        }
+    }
+
+    code {
+        font-family: 'JetBrains Mono', 'Fira Code', monospace;
+        font-size: 0.875rem;
+    }
+
+    a {
+        transition-property: color;
+        transition-duration: 200ms;
+    }
+}
