@@ -17,7 +17,7 @@ export interface DocsSidebarProps {
 
 export function DocsSidebar({ navigation, currentPath }: DocsSidebarProps) {
   return (
-    <nav className="w-64 flex-shrink-0 border-r border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-950 overflow-y-auto">
+    <nav className="hidden lg:block w-64 flex-shrink-0 border-r border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-950 overflow-y-auto">
       <div className="px-6 py-10">
         <div className="mb-1">
           <Link
