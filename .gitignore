@@ -30,3 +30,8 @@ tsconfig.tsbuildinfo
 # Root env files (secrets)
 .env
 .env.*
+
+.tanstack
+
+.agents
+.github/skills

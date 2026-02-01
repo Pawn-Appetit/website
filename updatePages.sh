@@ -20,16 +20,16 @@ npm run build
 
 # Add .nojekyll to prevent Jekyll processing
 echo "Creating .nojekyll file..."
-touch out/.nojekyll
+touch dist/.nojekyll
 
 # Copy CNAME file for custom domain
 if [ -f "CNAME" ]; then
     echo "Copying CNAME file..."
-    cp CNAME out/
+    cp CNAME dist/
 fi
 
 echo "Build completed successfully!"
-echo "Output directory: ./out"
+echo "Output directory: ./dist"
 
 # If running locally and wanting to deploy manually
 if [ "$1" = "--deploy" ]; then

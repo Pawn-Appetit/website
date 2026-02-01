@@ -5,12 +5,14 @@ This is the official website for **Pawn Appétit** - The Ultimate Chess Toolkit.
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/Pawn-Appetit/website.git
    cd pawn-appetit-website
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    # or
@@ -20,6 +22,7 @@ This is the official website for **Pawn Appétit** - The Ultimate Chess Toolkit.
    ```
 
 3. Run the development server:
+
    ```bash
    npm run dev
    # or
