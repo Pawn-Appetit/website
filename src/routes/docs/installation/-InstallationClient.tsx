@@ -103,7 +103,7 @@ export default function InstallationPageClient() {
           </ol>
 
           <a
-            href="https://github.com/Pawn-Appetit/pawn-appetit/releases/download/v0.12.0/Pawn.Appetit_0.12.0_x64-setup.exe"
+            href="https://github.com/Pawn-Appetit/pawn-appetit/releases/download/v0.12.1/Pawn.Appetit_0.12.1_x64-setup.exe"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 transition-colors mb-6"
           >
             <Download className="w-5 h-5" />
@@ -128,7 +128,7 @@ export default function InstallationPageClient() {
           </ol>
 
           <a
-            href="https://github.com/Pawn-Appetit/pawn-appetit/releases/download/v0.12.0/Pawn.Appetit_0.12.0_x64.dmg"
+            href="https://github.com/Pawn-Appetit/pawn-appetit/releases/download/v0.12.1/Pawn.Appetit_0.12.1_x64.dmg"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 transition-colors mb-6"
           >
             <Download className="w-5 h-5" />
@@ -157,7 +157,7 @@ export default function InstallationPageClient() {
           </ol>
 
           <a
-            href="https://github.com/Pawn-Appetit/pawn-appetit/releases/download/v0.12.0/Pawn.Appetit_0.12.0_amd64.AppImage"
+            href="https://github.com/Pawn-Appetit/pawn-appetit/releases/download/v0.12.1/Pawn.Appetit_0.12.1_amd64.AppImage"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 transition-colors mb-6"
           >
             <Download className="w-5 h-5" />
