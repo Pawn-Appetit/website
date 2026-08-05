@@ -9,33 +9,33 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as DocsRouteImport } from './routes/docs'
 import { Route as IndexRouteImport } from './routes/index'
-import { Route as FeaturesIndexRouteImport } from './routes/features/index'
-import { Route as DocsIndexRouteImport } from './routes/docs/index'
+import { Route as DocsRouteImport } from './routes/docs'
 import { Route as BlogIndexRouteImport } from './routes/blog/index'
+import { Route as DocsIndexRouteImport } from './routes/docs/index'
+import { Route as FeaturesIndexRouteImport } from './routes/features/index'
 import { Route as LlmsTxtRouteImport } from './routes/llms.txt'
-import { Route as FeaturesSmartAnalysisIndexRouteImport } from './routes/features/smart-analysis/index'
-import { Route as FeaturesRepertoireTrainingIndexRouteImport } from './routes/features/repertoire-training/index'
-import { Route as FeaturesDatabaseIndexRouteImport } from './routes/features/database/index'
-import { Route as DocsInstallationIndexRouteImport } from './routes/docs/installation/index'
-import { Route as DocsFirstStepsIndexRouteImport } from './routes/docs/first-steps/index'
-import { Route as DocsFaqIndexRouteImport } from './routes/docs/faq/index'
 import { Route as BlogChessbaseFreeAlternativeIndexRouteImport } from './routes/blog/chessbase-free-alternative/index'
+import { Route as DocsFaqIndexRouteImport } from './routes/docs/faq/index'
+import { Route as DocsFirstStepsIndexRouteImport } from './routes/docs/first-steps/index'
+import { Route as DocsInstallationIndexRouteImport } from './routes/docs/installation/index'
+import { Route as FeaturesDatabaseIndexRouteImport } from './routes/features/database/index'
+import { Route as FeaturesRepertoireTrainingIndexRouteImport } from './routes/features/repertoire-training/index'
+import { Route as FeaturesSmartAnalysisIndexRouteImport } from './routes/features/smart-analysis/index'
 
-const DocsRoute = DocsRouteImport.update({
-  id: '/docs',
-  path: '/docs',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const FeaturesIndexRoute = FeaturesIndexRouteImport.update({
-  id: '/features/',
-  path: '/features/',
+const DocsRoute = DocsRouteImport.update({
+  id: '/docs',
+  path: '/docs',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlogIndexRoute = BlogIndexRouteImport.update({
+  id: '/blog/',
+  path: '/blog/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const DocsIndexRoute = DocsIndexRouteImport.update({
@@ -43,9 +43,9 @@ const DocsIndexRoute = DocsIndexRouteImport.update({
   path: '/',
   getParentRoute: () => DocsRoute,
 } as any)
-const BlogIndexRoute = BlogIndexRouteImport.update({
-  id: '/blog/',
-  path: '/blog/',
+const FeaturesIndexRoute = FeaturesIndexRouteImport.update({
+  id: '/features/',
+  path: '/features/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const LlmsTxtRoute = LlmsTxtRouteImport.update({
@@ -53,26 +53,15 @@ const LlmsTxtRoute = LlmsTxtRouteImport.update({
   path: '/llms/txt',
   getParentRoute: () => rootRouteImport,
 } as any)
-const FeaturesSmartAnalysisIndexRoute =
-  FeaturesSmartAnalysisIndexRouteImport.update({
-    id: '/features/smart-analysis/',
-    path: '/features/smart-analysis/',
+const BlogChessbaseFreeAlternativeIndexRoute =
+  BlogChessbaseFreeAlternativeIndexRouteImport.update({
+    id: '/blog/chessbase-free-alternative/',
+    path: '/blog/chessbase-free-alternative/',
     getParentRoute: () => rootRouteImport,
   } as any)
-const FeaturesRepertoireTrainingIndexRoute =
-  FeaturesRepertoireTrainingIndexRouteImport.update({
-    id: '/features/repertoire-training/',
-    path: '/features/repertoire-training/',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const FeaturesDatabaseIndexRoute = FeaturesDatabaseIndexRouteImport.update({
-  id: '/features/database/',
-  path: '/features/database/',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const DocsInstallationIndexRoute = DocsInstallationIndexRouteImport.update({
-  id: '/installation/',
-  path: '/installation/',
+const DocsFaqIndexRoute = DocsFaqIndexRouteImport.update({
+  id: '/faq/',
+  path: '/faq/',
   getParentRoute: () => DocsRoute,
 } as any)
 const DocsFirstStepsIndexRoute = DocsFirstStepsIndexRouteImport.update({
@@ -80,15 +69,26 @@ const DocsFirstStepsIndexRoute = DocsFirstStepsIndexRouteImport.update({
   path: '/first-steps/',
   getParentRoute: () => DocsRoute,
 } as any)
-const DocsFaqIndexRoute = DocsFaqIndexRouteImport.update({
-  id: '/faq/',
-  path: '/faq/',
+const DocsInstallationIndexRoute = DocsInstallationIndexRouteImport.update({
+  id: '/installation/',
+  path: '/installation/',
   getParentRoute: () => DocsRoute,
 } as any)
-const BlogChessbaseFreeAlternativeIndexRoute =
-  BlogChessbaseFreeAlternativeIndexRouteImport.update({
-    id: '/blog/chessbase-free-alternative/',
-    path: '/blog/chessbase-free-alternative/',
+const FeaturesDatabaseIndexRoute = FeaturesDatabaseIndexRouteImport.update({
+  id: '/features/database/',
+  path: '/features/database/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FeaturesRepertoireTrainingIndexRoute =
+  FeaturesRepertoireTrainingIndexRouteImport.update({
+    id: '/features/repertoire-training/',
+    path: '/features/repertoire-training/',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const FeaturesSmartAnalysisIndexRoute =
+  FeaturesSmartAnalysisIndexRouteImport.update({
+    id: '/features/smart-analysis/',
+    path: '/features/smart-analysis/',
     getParentRoute: () => rootRouteImport,
   } as any)
 
@@ -198,13 +198,6 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/docs': {
-      id: '/docs'
-      path: '/docs'
-      fullPath: '/docs'
-      preLoaderRoute: typeof DocsRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/': {
       id: '/'
       path: '/'
@@ -212,11 +205,18 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/features/': {
-      id: '/features/'
-      path: '/features'
-      fullPath: '/features/'
-      preLoaderRoute: typeof FeaturesIndexRouteImport
+    '/docs': {
+      id: '/docs'
+      path: '/docs'
+      fullPath: '/docs'
+      preLoaderRoute: typeof DocsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blog/': {
+      id: '/blog/'
+      path: '/blog'
+      fullPath: '/blog/'
+      preLoaderRoute: typeof BlogIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/docs/': {
@@ -226,11 +226,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DocsIndexRouteImport
       parentRoute: typeof DocsRoute
     }
-    '/blog/': {
-      id: '/blog/'
-      path: '/blog'
-      fullPath: '/blog/'
-      preLoaderRoute: typeof BlogIndexRouteImport
+    '/features/': {
+      id: '/features/'
+      path: '/features'
+      fullPath: '/features/'
+      preLoaderRoute: typeof FeaturesIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/llms/txt': {
@@ -240,32 +240,18 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LlmsTxtRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/features/smart-analysis/': {
-      id: '/features/smart-analysis/'
-      path: '/features/smart-analysis'
-      fullPath: '/features/smart-analysis/'
-      preLoaderRoute: typeof FeaturesSmartAnalysisIndexRouteImport
+    '/blog/chessbase-free-alternative/': {
+      id: '/blog/chessbase-free-alternative/'
+      path: '/blog/chessbase-free-alternative'
+      fullPath: '/blog/chessbase-free-alternative/'
+      preLoaderRoute: typeof BlogChessbaseFreeAlternativeIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/features/repertoire-training/': {
-      id: '/features/repertoire-training/'
-      path: '/features/repertoire-training'
-      fullPath: '/features/repertoire-training/'
-      preLoaderRoute: typeof FeaturesRepertoireTrainingIndexRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/features/database/': {
-      id: '/features/database/'
-      path: '/features/database'
-      fullPath: '/features/database/'
-      preLoaderRoute: typeof FeaturesDatabaseIndexRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/docs/installation/': {
-      id: '/docs/installation/'
-      path: '/installation'
-      fullPath: '/docs/installation/'
-      preLoaderRoute: typeof DocsInstallationIndexRouteImport
+    '/docs/faq/': {
+      id: '/docs/faq/'
+      path: '/faq'
+      fullPath: '/docs/faq/'
+      preLoaderRoute: typeof DocsFaqIndexRouteImport
       parentRoute: typeof DocsRoute
     }
     '/docs/first-steps/': {
@@ -275,18 +261,32 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DocsFirstStepsIndexRouteImport
       parentRoute: typeof DocsRoute
     }
-    '/docs/faq/': {
-      id: '/docs/faq/'
-      path: '/faq'
-      fullPath: '/docs/faq/'
-      preLoaderRoute: typeof DocsFaqIndexRouteImport
+    '/docs/installation/': {
+      id: '/docs/installation/'
+      path: '/installation'
+      fullPath: '/docs/installation/'
+      preLoaderRoute: typeof DocsInstallationIndexRouteImport
       parentRoute: typeof DocsRoute
     }
-    '/blog/chessbase-free-alternative/': {
-      id: '/blog/chessbase-free-alternative/'
-      path: '/blog/chessbase-free-alternative'
-      fullPath: '/blog/chessbase-free-alternative/'
-      preLoaderRoute: typeof BlogChessbaseFreeAlternativeIndexRouteImport
+    '/features/database/': {
+      id: '/features/database/'
+      path: '/features/database'
+      fullPath: '/features/database/'
+      preLoaderRoute: typeof FeaturesDatabaseIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/features/repertoire-training/': {
+      id: '/features/repertoire-training/'
+      path: '/features/repertoire-training'
+      fullPath: '/features/repertoire-training/'
+      preLoaderRoute: typeof FeaturesRepertoireTrainingIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/features/smart-analysis/': {
+      id: '/features/smart-analysis/'
+      path: '/features/smart-analysis'
+      fullPath: '/features/smart-analysis/'
+      preLoaderRoute: typeof FeaturesSmartAnalysisIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
   }

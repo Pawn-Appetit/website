@@ -192,6 +192,64 @@ function Home() {
           </div>
         </section>
       </main>
+
+      <a
+        href="https://lineage.tools"
+        target="_blank"
+        rel="noopener noreferrer sponsored"
+        aria-label="Build your family tree free with Lineage"
+        className="group relative isolate grid h-[90px] w-full max-w-[970px] grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-5 overflow-hidden rounded-2xl border border-[#1c4f4124] bg-[radial-gradient(circle_at_82%_10%,rgba(61,139,117,0.14),transparent_27%),linear-gradient(105deg,#fffdf7_0%,#fbfdf9_58%,#eaf4ee_100%)] mx-auto my-4 px-[18px] text-[#102f27] no-underline shadow-[0_14px_38px_rgba(24,61,51,0.12)] before:absolute before:inset-0 before:-z-20 before:opacity-50 before:[background-image:linear-gradient(rgba(31,87,72,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(31,87,72,0.04)_1px,transparent_1px)] before:[background-size:24px_24px] before:[mask-image:linear-gradient(90deg,transparent,#000_48%,#000)] after:absolute after:right-[148px] after:top-[-52px] after:-z-10 after:h-[150px] after:w-[150px] after:rounded-full after:border after:border-[rgba(47,115,97,0.1)] after:shadow-[0_0_0_24px_rgba(47,115,97,0.035),0_0_0_48px_rgba(47,115,97,0.022)]"
+      >
+        <span className="flex items-center gap-[9px] whitespace-nowrap">
+          <img
+            src="https://lineage.tools/favicon.svg"
+            alt="Lineage"
+            className="h-[38px] w-[38px] object-contain drop-shadow-[0_4px_8px_rgba(22,64,53,0.12)]"
+          />
+
+          <span className="font-serif text-[25px] font-bold tracking-[-0.045em]">
+            Lineage
+          </span>
+        </span>
+
+        <span className="min-w-0 border-l border-[rgba(31,87,72,0.13)] pl-5">
+          <strong className="block overflow-hidden text-ellipsis whitespace-nowrap font-serif text-xl font-semibold leading-none tracking-[-0.03em]">
+            The family tree maker for your whole family story
+          </strong>
+
+          <span className="mt-[7px] flex items-center gap-[13px] overflow-hidden whitespace-nowrap text-[11px] font-semibold text-[#647a71]">
+            <span>Free to start</span>
+
+            <span className="relative before:absolute before:-left-2 before:top-1/2 before:h-[3px] before:w-[3px] before:-translate-y-1/2 before:rounded-full before:bg-[#d7b66b]">
+              Private by default
+            </span>
+
+            <span className="relative before:absolute before:-left-2 before:top-1/2 before:h-[3px] before:w-[3px] before:-translate-y-1/2 before:rounded-full before:bg-[#d7b66b]">
+              GEDCOM import
+            </span>
+          </span>
+        </span>
+
+        <span className="inline-flex min-h-[44px] min-w-[154px] items-center justify-center gap-[9px] rounded-full bg-gradient-to-br from-[#173f34] to-[#2f7361] px-[18px] text-xs font-extrabold text-white shadow-[0_10px_22px_rgba(25,65,54,0.22)] transition-all duration-200 group-hover:-translate-y-0.5 group-hover:brightness-105 group-hover:shadow-[0_14px_27px_rgba(25,65,54,0.27)]">
+          Start your tree
+
+          <svg
+            viewBox="0 0 20 20"
+            className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-0.5"
+            aria-hidden="true"
+          >
+            <path
+              d="M4 10h11M11 6l4 4-4 4"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+      </a>
+
       <Footer />
     </div>
   );
